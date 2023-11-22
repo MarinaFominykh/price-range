@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Price range</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body class="page">
+    <div class="wrapper">
+      <div class="value-container">
+        <input class="value value-min" type="text" value="100 ₽" />
+        <input class="value value-max" type="text" value="900 ₽" />
+      </div>
+      <div class="slider">
+        <div class="progress"></div>
+      </div>
+      <div class="range-container">
+        <input class="min" type="range" min="0" max="1000" value="100" />
+        <input class="max" type="range" min="0" max="1000" value="900" />
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
